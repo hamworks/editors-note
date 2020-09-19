@@ -1,0 +1,20 @@
+{
+    "name": "editors-note/editors-note",
+    "title": "Editors note",
+    "icon": "tag",
+    "description": "This block is editors note. Not display on front.",
+    "textdomain": "editors-note",
+    "category": "widgets",
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./build/index.css",
+    "attributes": {
+        "uuid": {
+            "type": "string"
+        }
+    },
+    "supports": {
+        "html": false,
+        "reusable": false,
+        "customClassName": false
+    }
+}
